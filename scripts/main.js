@@ -1,3 +1,7 @@
 console.log("Hello, World!");
 
-let option = parseInt(prompt("1. Suma \n 2. Multiplicacion"));
+getNumber();
+
+function getNumber(){
+    return parseInt(prompt("1. Suma \n 2. Multiplicacion"));
+}
