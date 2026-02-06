@@ -7,7 +7,8 @@ function principalFunction() {
     let number1 = getNumber();
     let number2 = getNumber();
 
-    let result = calculateOperation(option,number1, number2);
+    let result = calculateOperation(option,number1,number2);
+    showResult(result);
 }
 
 function getOperation(){
@@ -30,5 +31,5 @@ function calculateOperation(option,number1, number2){
 }
 
 function showResult(result){
-    alert("El resultado de la operacion es: \n${result}")
+    alert(`El resultado de la operacion es:\n${result}`);
 }
